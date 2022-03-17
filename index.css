@@ -1,0 +1,101 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    background-position: bottom;
+}
+
+.contenedorPadre{
+    height: 800px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.contenedorMenu{
+    height: 720px;
+    width: 19%;
+    border: 1px solid red;
+    float: left;
+    padding-top: 20px;
+}
+
+.contenedorHijo{
+    height: 720px;
+    width: 79%;
+    border: 1px solid blue;
+    float: right;
+}
+
+.contenedorContenido{
+    text-align: center;
+    min-height: 25%;
+    border: 1px solid yellowgreen;
+}
+
+h2, p{
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+li:hover{
+    color: gray;
+}
+
+.imagenPerro{
+    width: 200px;
+    height: 120px;
+    float: left;
+    padding-left: 200px;
+}
+
+.imagenGato{
+    width: 200px;
+    height: 120px;
+    float: right;
+    padding-right: 200px;
+}
+
+.parrCont3{
+    display: inline-flex;
+}
+
+.parrafo1{
+    text-align: left, justify;
+    color: green;
+    width: 33%;
+}
+.parrafo2{
+    text-align: center, justify;
+    color: yellowgreen;
+    width: 33%;
+}
+.parrafo3{
+    text-align: right, bottom, justify;
+    color: yellow;
+    width: 33%;
+}
+
+.fondo1{
+    background-color: rgb(189, 138, 71);
+}
+
+.fondo2{
+    background-color: rgb(119, 214, 206);
+}
+
+.fondo3{
+    background-color: rgb(211, 76, 76);
+}
+
+.fondo4{
+    background-color: rgb(145, 74, 238);
+}
